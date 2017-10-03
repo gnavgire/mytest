@@ -1,0 +1,14 @@
+apiVersion: "cit.intel.com/v1beta1"
+kind: TrustCrd
+metadata:
+   name: tt-obj1
+Spec:
+   hostList: 
+   - hostName : "127.0.0.1"
+     trusted : true
+     validTo : "22-10-2017-02.03.04.935"
+     signedTrustReport : "495270d6242e2c67e24e22bad49dgdah"
+   - hostName : "node2"
+     trusted : true
+     validTo : "22-10-2017-02-03-04.935"
+     signedTrustReport : "896270d6242e2c67e24e22bad49dddaa"

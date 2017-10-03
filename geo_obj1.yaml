@@ -1,0 +1,24 @@
+apiVersion: cit.intel.com/v1beta1
+kind: GeolocationCrd
+metadata:
+  name: gl-obj1
+Spec:
+  hostList:
+  - hostName: "127.0.0.1"
+    validTo: "28-10-2017T24.00"
+    signedTrustReport: "24d1cdffe7836d71b96a8bf065fec038"
+    assetTags:
+      city.florida: true
+      country.us: true
+      cust.apple: true
+      dept.finance: true
+      state.texas: true
+  - hostName: "node4"
+    validTo: "28-10-2017T24.00"
+    signedTrustReport: "3001b13cd287f056d4d54d04be93778f"
+    assetTags:
+      pincode.12312: true
+      dept.marketing: true
+      country.uk: true
+      cust.pepsi: true
+      state.ukwest: true
